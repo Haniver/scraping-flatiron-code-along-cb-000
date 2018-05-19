@@ -23,7 +23,7 @@ class Scraper
   end
 
   def get_courses
-    course=get_page.css(".post").first.css(".date").text
+    course=get_page.css(".post").first.css("p").text
     binding.pry
   end
 
