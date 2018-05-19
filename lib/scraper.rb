@@ -37,4 +37,3 @@ class Scraper
 
 end
 Scraper.new.make_courses
-binding.pry
