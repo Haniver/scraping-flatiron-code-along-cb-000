@@ -24,7 +24,6 @@ class Scraper
 
   def get_courses
     course=get_page.css(".post").first.css("p").text
-    binding.pry
   end
 
   def make_courses
@@ -38,3 +37,4 @@ class Scraper
 
 end
 Scraper.new.make_courses
+binding.pry
